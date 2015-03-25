@@ -1,0 +1,28 @@
+{
+  "name": "laravel-elixir-sync",
+  "version": "0.1.0",
+  "description": "Watch source files and sync them to destination",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaceju/laravel-elixir-sync"
+  },
+  "keywords": [
+    "gulp",
+    "laravel",
+    "elixir"
+  ],
+  "author": {
+    "name": "Jace Ju",
+    "email": "jaceju@gmail.com",
+    "url": "https://github.com/jaceju"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaceju/laravel-elixir-sync/issues"
+  },
+  "homepage": "https://github.com/jaceju/laravel-elixir-sync"
+}
