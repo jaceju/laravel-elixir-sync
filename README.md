@@ -1,25 +1,21 @@
-# laravel-elixir-clean
+# laravel-elixir-sync
 
-Clean built files or folders.
+Watch source files and sync them to destination.
 
 ## Install
 
 ```sh
-$ npm install laravel-elixir-clean --save-dev
+$ npm install laravel-elixir-sync --save-dev
 ```
 
 ## Usage
 
-Clean folders: `public/css`, `public/js`, `public/build`.
-
 ```javascript
 var elixir = require('laravel-elixir');
-require('laravel-elixir-clean');
+require('laravel-elixir-sync');
 
 elixir(function(mix) {
-  mix.clean()
-     .less('*.less')
-     .coffee('*.coffee');
+  mix.sync('resources/assets/js/**/*.js', 'public/js');
 });
 ```
 
@@ -29,10 +25,10 @@ Then run tasks:
 gulp
 ```
 
-Or just clean folders only:
+Or just sync folders only:
 
 ```bash
-gulp clean
+gulp sync
 ```
 
 ## License
