@@ -25,7 +25,7 @@ Then run tasks:
 gulp
 ```
 
-Or just sync folders only:
+Or just run sync task only:
 
 ```bash
 gulp sync
